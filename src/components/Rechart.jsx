@@ -53,11 +53,11 @@ export default class Rechart extends PureComponent {
 
   render() {
     return (
-      <section style={{width: "100%", height: "100%"}}>
+      <section style={{width: "100%", height: "100%", marginBottom:"25px"}}>
         <div style={{margin: "50px"}}>
           <DropdownButton/>
         </div>
-        <div style={{width: "800px", height: "600px"}}>
+        <div style={{width: "1000px", height: "400px"}}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart
               width={500}

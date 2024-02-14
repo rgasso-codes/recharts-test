@@ -3,6 +3,7 @@ import Rechart from "./components/Rechart";
 import {Grid} from "@mui/material";
 import Navbar from "./components/Navbar";
 import RechartBar from "./components/RechartBar";
+import RechartScatter from "./components/RechartScatter";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         </Grid>
         <Grid item xs={9} display="flex" alignItems="center" justifyContent="center">
           <Grid>
-            <Rechart/>
+            <RechartScatter/>
             <RechartBar/>
+            <Rechart/>
           </Grid>
         </Grid>
       </Grid>

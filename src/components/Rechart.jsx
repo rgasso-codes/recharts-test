@@ -6,13 +6,13 @@ import DropdownButton from "./DropdownButton";
 const data = [
   {
     name: 'Page A',
-    uv: 4000,
+    uv: 2400,
     pv: 2400,
     amt: 2400,
   },
   {
     name: 'Page B',
-    uv: 3000,
+    uv: 1398,
     pv: 1398,
     amt: 2210,
   },
@@ -54,9 +54,6 @@ export default class Rechart extends PureComponent {
   render() {
     return (
       <section style={{width: "100%", height: "100%", marginBottom:"25px"}}>
-        <div style={{margin: "50px"}}>
-          <DropdownButton/>
-        </div>
         <div style={{width: "1000px", height: "400px"}}>
           <ResponsiveContainer width="100%" height="100%">
             <LineChart

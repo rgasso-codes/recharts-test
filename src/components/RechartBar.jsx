@@ -4,7 +4,7 @@ import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 const data = [
   {
     name: 'Page A',
-    uv: 4000,
+    uv: 2400,
     pv: 2400,
     amt: 2400,
   },
@@ -64,6 +64,7 @@ export default class RechartBar extends PureComponent {
                 left: 20,
                 bottom: 5,
               }}
+              barGap="-40"
             >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="name" />

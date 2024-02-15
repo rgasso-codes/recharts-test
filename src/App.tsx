@@ -2,7 +2,7 @@ import React from 'react';
 import Rechart from "./components/Rechart";
 import {Grid} from "@mui/material";
 import Navbar from "./components/Navbar";
-import RechartBar from "./components/RechartBar";
+import ComposedRechart from "./components/ComposedRechart";
 import RechartScatter from "./components/RechartScatter";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Grid item xs={9} display="flex" alignItems="center" justifyContent="center">
           <Grid>
             <RechartScatter/>
-            <RechartBar/>
+            <ComposedRechart/>
             <Rechart/>
           </Grid>
         </Grid>
